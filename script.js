@@ -7,7 +7,7 @@ const getGuessValue = () => {
 const checkButton = () => {
     const guessInput = document.getElementById('guess-input');
     const guessInputValue = guessInput.value;
-    // console.log(guessInputValue);
+
     const guessNumberText = getGuessValue();
     if (guessNumberText == guessInputValue) {
         document.body.style.backgroundColor = 'green';
